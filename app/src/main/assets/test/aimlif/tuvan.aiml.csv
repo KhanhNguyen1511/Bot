@@ -1,0 +1,29 @@
+0,NHIỆM VỤ *,*,*,<random>#Newline               <li>Nhiệm vụ của mình là giúp bạn tra cứu các thông tin liên quan đến việc tuyển sinh của trường Hutech</li>#Newline               <li>Mình được tạo ra với mục đích hỗ trợ tư vấn các thông tin về việc tuyển sinh của trường Hutech</li>#Newline               <li>Nhiệm vụ chính của mình là tư vấn các thông tin liên quan đến tuyển sinh của trường Hutech</li>#Newline           </random>,tuvan.aiml
+0,* MỤC ĐÍCH GÌ GÌ,*,*,<srai>Nhiệm vụ *</srai>,tuvan.aiml
+0,MỤC ĐÍCH *,*,*,<srai>Nhiệm vụ *</srai>,tuvan.aiml
+0,CÁCH THỨC TUYỂN SINH *,*,*,Hutech tuyển sinh theo 2 hình thức là xét tuyển theo kết quả kỳ thi THPT quốc gia và xét tuyển theo kết quả năm lớp 12,tuvan.aiml
+0,HUTECH TUYỂN SINH *,*,*,<srai>Cách thức tuyển sinh *</srai>,tuvan.aiml
+0,CƠ HỘI VIỆC LÀM *,*,*,<random>#Newline          <li>HUTECH có Trung tâm Quan hệ hợp tác doanh nghiệp và Việc làm sinh viên#Comma sẽ hỗ trợ giới thiệu việc làm cho bạn nếu bạn có nhu cầu tìm việc. </li>#Newline          <li>Hàng tháng#Comma HUTECH đều tổ chức các buổi hội thảo#Comma tọa đàm về kỹ năng xin việc và phỏng vấn cũng như giới thiệu việc làm đến với các bạn sinh viên trong trường.</li>#Newline          <li>Theo mình được biết#Comma HUTECH cũng thường xuyên phối hợp với các cơ quan#Comma công ty#Comma doanh nghiệp#Comma tập đoàn trong và ngoài nước tổ chức Ngày hội việc làm cho sinh viên nhằm tạo điều kiện cho các sinh viên dễ dàng tìm kiếm công việc mà sinh viên mong muốn.</li>#Newline      </random>,tuvan.aiml
+0,* VIỆC LÀM *,*,*,<srai>Cơ hội việc làm *</srai>,tuvan.aiml
+0,* ĐÀO TẠO *,*,*,Hutech đào tạo các trình độ : Đại học#Comma Cao đẳng#Comma Liên thông#Comma Thạc sĩ#Comma Tiến sĩ,tuvan.aiml
+0,KẾT QUẢ THPT QUỐC GIA,*,*,Bạn cần thêm thông tin gì từ hình thức xét tuyển theo kết quả <set name="topic">THPT quốc gia</set>,tuvan.aiml
+0,* THPT QUỐC GIA,*,*,<srai>Kết quả THPT quốc gia</srai>,tuvan.aiml
+0,KẾT QUẢ LỚP 12,*,*,Bạn cần thêm thông tin gì từ hình thức xét tuyển theo kết quả <set name="topic">lớp 12</set>,tuvan.aiml
+0,*  KẾT QUẢ LỚP 12,*,*,<srai>Kết quả lớp 12</srai>,tuvan.aiml
+0,NGÀNH NGHỀ,*,*,Hutech đào tạo 38 ngành ở trình độ Đại học và 25 ngành ở trình độ Cao đẳng.#Newline        Bạn có thể truy cập vào trang chủ của Hutech để tìm hiểu rõ hơn về từng ngành.,tuvan.aiml
+0,* NGÀNH *,*,*,<srai>Ngành nghề</srai>,tuvan.aiml
+0,TRÌNH ĐỘ ĐẠI HỌC,*,*,Bạn cần thông tin gì về việc tuyển sinh bậc <set name="topic">Đại học</set>,tuvan.aiml
+0,* ĐẠI HỌC *,*,*,<srai>Trình độ Đại học</srai>,tuvan.aiml
+0,* ĐẠI HỌC,*,*,<srai>Trình độ Đại học</srai>,tuvan.aiml
+0,TRÌNH ĐỘ CAO ĐẲNG,*,*,Bạn cần thông tin gì về việc tuyển sinh bậc <set name="topic">Cao đẳng</set>,tuvan.aiml
+0,* CAO ĐẲNG *,*,*,<srai>Trình độ Cao đẳng</srai>,tuvan.aiml
+0,* CAO ĐẲNG,*,*,<srai>Trình độ Cao đẳng</srai>,tuvan.aiml
+0,LIÊN THÔNG,*,*,Bạn cần thông tin gì về việc tuyển sinh <set name="topic">Liên thông</set>,tuvan.aiml
+0,* LIÊN THÔNG *,*,*,<srai>Liên thông</srai>,tuvan.aiml
+0,* LIÊN THÔNG,*,*,<srai>Liên thông</srai>,tuvan.aiml
+0,THẠC SĨ,*,*,Bạn cần thông tin gì về việc tuyển sinh <set name="topic">Thạc sĩ</set>,tuvan.aiml
+0,* THẠC SĨ *,*,*,<srai>Thạc sĩ</srai>,tuvan.aiml
+0,* THẠC SĨ,*,*,<srai>Thạc sĩ</srai>,tuvan.aiml
+0,TIẾN SĨ,*,*,Hiện tại mình vẫn chưa có được những thông tin liên quan đến việc tuyển sinh trình độ thạc sĩ.#Newline            Mong bạn thứ lỗi :(,tuvan.aiml
+0,* TIẾN SĨ *,*,*,<srai>Tiến sĩ</srai>,tuvan.aiml
+0,* TIẾN SĨ,*,*,<srai>Tiến sĩ</srai>,tuvan.aiml

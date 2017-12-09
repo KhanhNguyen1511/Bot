@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <topic name ="Đại học">
+      <category>
+          <pattern>* hình thức *</pattern>
+          <template>Hutech xét tuyển Đại học theo 2 hình thức là :
+              1.Xét tuyển học bạ lớp 12
+              2.Xét tuyển nguyện vọng bổ sung
+          </template>
+      </category>
+      
+      <category>
+          <pattern>Chính sách học phí *</pattern>
+          <template>Học phí tại Hutech xây dưng trên cơ sở học phí tín chỉ, thu theo học kỳ và tùy thuộc vào tổng số tín chỉ học kỳ đó.</template>
+      </category>
+      
+      <category>
+          <pattern>* học phí *</pattern>
+          <template>Tùy theo mỗi ngành mà học phí sẽ khác nhau chẳng hạn như:
+              1.Ngành dược từ 19-21 triệu/học kỳ
+              2.Kiến trúc, xây dựng và các ngành khác từ 14-15 triệu/học kỳ
+          </template>
+      </category>
+      
+      <category>
+          <pattern>Thời gian *</pattern>
+          <template>Mỗi ngành học sẽ có thời gian đào tạo khác nhau.
+              Thời gian đào tạo đối với ngành Dược và Kiến trúc là 5 năm, đối với ngành Xây dựng là 4,5 năm còn các ngành khác là 4 năm.
+          </template>
+      </category>
+      
+      <category>
+          <pattern>* học bổng *</pattern>
+          <template>
+          Hutech có một vài chính sách học bổng dành cho sinh viên như:
+          + Hutech vượt khó (3 triệu/suất)
+          + Hutech tài năng (3-10 triệu/suất)
+          + Thủ khoa đầu vào Hutech (100 triệu/suất)
+          + Hutech thắp sách ước mơ (Học phí trọn khóa)
+          + Cán bộ đoàn, hội Hutech (2-6 triêu/suất)
+          Đối với thí sinh xét tuyển bằng điểm thi THPT quốc gia (tổng điểm 3 môn):
+          + Từ 27 trở lên : 100% học phí
+          + Từ 24-27 : 50% học phí 
+          + Từ 22-24 : 25% học phí
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * ngành *</pattern>
+          <template>Hutech xét tuyển nguyện vọng bổ sung cho 38 ngành đào tạo.
+              Bạn có thể truy cập vào trang chủ của Hutech để tra cứu rõ hơn về từng ngành
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * tổ hợp xét tuyển *</pattern>
+          <template>Hutech gồm các tổ hợp xét tuyển là :
+          A00(Toán, Lý, Hóa)
+          A01(Toán, lý, Anh)
+          B00(Toán, Hóa, Sinh)
+          C00(Văn, Sử, Địa)
+          C01(Toán, Văn, Lý)
+          C08(Văn, Hóa, Sinh)
+          D01(Toán, Văn, Anh)
+          D07(Toán, Hóa, Anh)
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * mã trường *</pattern>
+          <template>Mã trường của Hutech là : DKC
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * bằng cấp *</pattern>
+          <template>Sau khi tốt nghiệp sinh viên nhận bằng ĐH chính quy, phôi bằng của Bộ GDDT cấp.
+          </template>
+      </category>
+  </topic>
+</aiml>

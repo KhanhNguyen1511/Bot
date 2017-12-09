@@ -1,0 +1,4 @@
+0,XIN CHÀO,*,*,<random>#Newline            <li>Rất vui được gặp bạn.</li>#Newline            <li>Chào bạn#Comma mình có thể giúp gì cho bạn?</li>#Newline         </random>,test.aiml
+0,CHÀO *,*,*,<srai> Xin chào </srai>,test.aiml
+0,HELLO *,*,*,<srai> Xin chào </srai>,test.aiml
+0,* LÀ AI,*,*,Mình là chat bot hỗ trợ tư vấn tuyển sinh của trường Đại học Hutech,test.aiml

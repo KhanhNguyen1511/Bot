@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <category>
+      <pattern>Nhiệm vụ *</pattern>
+      <template>
+           <random>
+               <li>Nhiệm vụ của mình là giúp bạn tra cứu các thông tin liên quan đến việc tuyển sinh của trường Hutech</li>
+               <li>Mình được tạo ra với mục đích hỗ trợ tư vấn các thông tin về việc tuyển sinh của trường Hutech</li>
+               <li>Nhiệm vụ chính của mình là tư vấn các thông tin liên quan đến tuyển sinh của trường Hutech</li>
+           </random>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>* mục đích gì </pattern>
+      <template>
+           <srai>Nhiệm vụ *</srai>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>Mục đích * </pattern>
+      <template>
+           <srai>Nhiệm vụ *</srai>
+      </template>     
+   </category>
+   
+  <category>
+      <pattern>Cách thức tuyển sinh * </pattern>
+      <template>
+          Hutech tuyển sinh theo 2 hình thức là xét tuyển theo kết quả kỳ thi THPT quốc gia và xét tuyển theo kết quả năm lớp 12 
+      </template>     
+   </category>
+   
+  <category>
+      <pattern>Hutech tuyển sinh * </pattern>
+      <template>
+           <srai>Cách thức tuyển sinh *</srai>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>Cơ hội việc làm * </pattern>
+      <template>
+      <random>
+          <li>HUTECH có Trung tâm Quan hệ hợp tác doanh nghiệp và Việc làm sinh viên, sẽ hỗ trợ giới thiệu việc làm cho bạn nếu bạn có nhu cầu tìm việc. </li>
+          <li>Hàng tháng, HUTECH đều tổ chức các buổi hội thảo, tọa đàm về kỹ năng xin việc và phỏng vấn cũng như giới thiệu việc làm đến với các bạn sinh viên trong trường.</li>
+          <li>Theo mình được biết, HUTECH cũng thường xuyên phối hợp với các cơ quan, công ty, doanh nghiệp, tập đoàn trong và ngoài nước tổ chức Ngày hội việc làm cho sinh viên nhằm tạo điều kiện cho các sinh viên dễ dàng tìm kiếm công việc mà sinh viên mong muốn.</li>
+      </random>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>* việc làm * </pattern>
+      <template>
+           <srai>Cơ hội việc làm *</srai>
+      </template>     
+   </category>
+   
+   <category>
+       <pattern>* đào tạo *</pattern>
+       <template>Hutech đào tạo các trình độ : Đại học, Cao đẳng, Liên thông, Thạc sĩ, Tiến sĩ</template>
+   </category>
+   
+   <category>
+       <pattern>Kết quả THPT quốc gia</pattern>
+       <template>Bạn cần thêm thông tin gì từ hình thức xét tuyển theo kết quả <set name ="topic">THPT quốc gia</set></template>
+   </category>
+   
+   <category>
+       <pattern>* THPT quốc gia</pattern>
+       <template>
+           <srai>Kết quả THPT quốc gia</srai>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Kết quả lớp 12</pattern>
+       <template>Bạn cần thêm thông tin gì từ hình thức xét tuyển theo kết quả <set name ="topic">lớp 12</set> </template>
+   </category>
+   
+   <category>
+       <pattern>*  kết quả lớp 12</pattern>
+       <template>
+           <srai>Kết quả lớp 12</srai>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Ngành nghề</pattern>
+       <template>
+       Hutech đào tạo 38 ngành ở trình độ Đại học và 25 ngành ở trình độ Cao đẳng.
+        Bạn có thể truy cập vào trang chủ của Hutech để tìm hiểu rõ hơn về từng ngành.
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* ngành *</pattern>
+       <template> 
+            <srai>Ngành nghề</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Trình độ Đại học</pattern>
+       <template> 
+            Bạn cần thông tin gì về việc tuyển sinh bậc <set name ="topic">Đại học</set>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Đại học *</pattern>
+       <template> 
+            <srai>Trình độ Đại học</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Đại học</pattern>
+       <template> 
+            <srai>Trình độ Đại học</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Trình độ Cao đẳng</pattern>
+       <template> 
+            Bạn cần thông tin gì về việc tuyển sinh bậc <set name ="topic">Cao đẳng</set>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Cao đẳng *</pattern>
+       <template> 
+            <srai>Trình độ Cao đẳng</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Cao đẳng</pattern>
+       <template> 
+            <srai>Trình độ Cao đẳng</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Liên thông</pattern>
+       <template> 
+            Bạn cần thông tin gì về việc tuyển sinh <set name ="topic">Liên thông</set>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Liên thông *</pattern>
+       <template> 
+            <srai>Liên thông</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Liên thông</pattern>
+       <template> 
+            <srai>Liên thông</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Thạc sĩ</pattern>
+       <template> 
+            Bạn cần thông tin gì về việc tuyển sinh <set name ="topic">Thạc sĩ</set>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Thạc sĩ *</pattern>
+       <template> 
+            <srai>Thạc sĩ</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Thạc sĩ</pattern>
+       <template> 
+            <srai>Thạc sĩ</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>Tiến sĩ</pattern>
+       <template> 
+            Hiện tại mình vẫn chưa có được những thông tin liên quan đến việc tuyển sinh trình độ thạc sĩ.
+            Mong bạn thứ lỗi :(
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Tiến sĩ *</pattern>
+       <template> 
+            <srai>Tiến sĩ</srai> 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>* Tiến sĩ</pattern>
+       <template> 
+            <srai>Tiến sĩ</srai> 
+       </template>
+   </category>
+</aiml>

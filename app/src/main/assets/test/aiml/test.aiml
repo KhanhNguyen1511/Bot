@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0">
+   <category>
+      <pattern>Xin chào</pattern>     
+      <template>
+         <random>
+            <li>Rất vui được gặp bạn.</li>
+            <li>Chào bạn, mình có thể giúp gì cho bạn?</li>
+         </random>
+      </template>     
+   </category>
+   <category>
+      <pattern>Chào *</pattern>
+      <template>
+         <srai>Xin chào</srai>
+      </template>     
+   </category>
+   <category>
+      <pattern>Hello *</pattern>
+      <template>
+         <srai>Xin chào</srai>
+      </template>     
+   </category>
+    <category>
+        <pattern>* là ai</pattern>
+        <template>Mình là chat bot hỗ trợ tư vấn tuyển sinh của trường Đại học Hutech</template>
+    </category>   
+</aiml>

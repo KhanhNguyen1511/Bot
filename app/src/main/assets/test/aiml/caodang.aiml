@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <topic name="Cao đẳng">
+  <category>
+          <pattern>* điều kiện *</pattern>
+          <template>Điều kiện xét tuyển bậc Cao đẳng: Tốt nghiệp THPT hoặc tương đương</template>
+    </category>
+    
+    <category>
+          <pattern>Thời gian *</pattern>
+          <template>Tùy theo mỗi ngành sẽ có thời gian đào tạo khác nhau:
+              1.Đối với ngành Dược sỹ: 36 tháng 
+              2.Đối với các ngành khác: 28 tháng
+          </template>
+      </category>
+      
+     <category>
+          <pattern>* học phí *</pattern>
+          <template>Mỗi ngành sẽ có mức học phí khác nhau và sẽ không thay đổi trong toàn khóa học:
+              1.Đối với ngành Dược sỹ: 9 triệu/kỳ
+              2.Các ngành khác: 6 triệu/kỳ
+          </template>
+      </category>
+      
+      <category>
+          <pattern>* bằng cấp *</pattern>
+          <template>Sinh viên tốt nghiệp được nhận bằng Kỹ sư hoặc Cử nhân thực hành</template>
+      </category>
+      
+      <category>
+          <pattern>* liên thông *</pattern>
+          <template>Tất cả sinh viên có thể liên thông Đại học chính quy theo quy định của Hutech
+          </template>
+      </category>
+      
+      <category>
+          <pattern>* ngành *</pattern>
+          <template>
+          Năm 2017, hutech tiến hành tuyển sinh bậc cao đẳng các ngành:
+            1.Dược học 
+            2.Công nghê thực phẩm
+            3.Công nghê sinh học
+            4.Công nghệ thông tin
+            5.Công nghê Kỹ thuật cơ khí
+            6.Công nghệ Kỹ thuật ô tô
+            7.Kỹ thuật công trình xây dựng
+            8.Thiết kế đồ họa
+            9.Marketing
+            10.Quản trị kinh doanh
+            11.Quản trị khách sạn
+            12.Quãn trị du lịch và lữ hành
+            13.Quản trị nhà hàng và dịch vụ ăn uống
+            14.Kế toán
+            15.Tài chính - ngân hàng
+            16.Tiếng Anh
+            17.Tiếng Nhật
+            
+            * Bạn có thể truy cập vào trang chủ của Hutech để tra cứu rõ hơn về từng ngành
+          </template>
+      </category>
+     </topic>
+</aiml>

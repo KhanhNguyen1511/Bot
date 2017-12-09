@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <topic name ="lớp 12">
+  
+    <category>
+           <pattern> * điều kiện *</pattern>
+           <template>
+           Điều kiện để được xét tuyển là: 
+              1.Tốt  nghiệp THPT hoặc tương đương
+              2.Tổng điểm trung bình năm học lớp 12 của 3 môn trong tổ hợp dùng để xét tuyển:
+                + Ngành Dược >= 20 điểm
+                + Các ngành có môn Năng khiếu vẽ >= 24 điểm 
+                + Các ngành khác >=18 điểm
+           </template>
+       </category>
+      
+  </topic>
+</aiml>

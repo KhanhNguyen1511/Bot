@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <topic name ="THPT quốc gia">
+       <category>
+           <pattern>* điều kiện *</pattern>
+           <template>
+           Điều kiện để được xét tuyển là: 
+              1.Tham gia kỳ thi THPT quốc gia
+              2.Đạt điểm đảm bảo chất lượng đầu vào theo quy định của Bộ Giáo dục và Đào tạo (15đ)
+           </template>
+       </category>
+       
+       <category>
+           <pattern>* thời gian *</pattern>
+           <template>
+            Thời gian Hutech tiến hành xét tuyển là theo quy định của BGD-DT
+           </template>
+       </category>
+       
+       <category>
+           <pattern>* phương thức *</pattern>
+           <template>
+            Phương thức xét tuyển của Hutech tuân theo quy định của BGD-DT
+           </template>
+       </category>
+       
+       <category>
+           <pattern>* lệ phí *</pattern>
+           <template>
+            Hutech thu lệ phí tuyển sinh theo quy định của BGD-DT
+           </template>
+       </category>
+  </topic>
+</aiml>

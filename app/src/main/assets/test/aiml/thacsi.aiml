@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <topic name="Thạc sĩ">
+      <category>
+          <pattern> Điều kiện</pattern>
+          <template>
+              Điều kiện để được dư thi trình độ Thạc sĩ là:
+                a) Đã tốt nghiệp Đại học đúng ngành hoặc phù hợp với ngành, chuyên ngành đăng ký dự thi.
+                b) Người có bằng tốt nghiệp Đại học ngành gần với chuyên ngành dự thi phải học bổ sung kiến thức trước khi thi (Các môn học bổ sung kiến thức được xác định dựa trên bảng điểm trình độ đại học của thí sinh).
+                c) Văn bằng Đại học do cơ sở giáo dục nước ngoài cấp phải được công nhận theo quy định.
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * điều kiện *</pattern>
+          <template>
+              <srai> Điều kiện</srai>
+          </template>
+      </category>
+      
+      <category>
+          <pattern> Thòi gian </pattern>
+          <template>
+              Thời gian đào tạo là 1,5 năm
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * thời gian *</pattern>
+          <template> 
+              <srai> Thời gian </srai>
+          </template>
+      </category>
+        
+      <category>
+          <pattern>Hồ sơ dự thi</pattern>
+          <template>
+              Hồ sơ dự thi bao gồm: 
+                - Đơn đăng ký dự thi 
+                - Sơ yếu lý lịch 
+                - Bản sao công chứng bằng tốt nghiệp Đại học
+                - Bản sao công chứng bảng điểm Đại học
+                - Bản sao công chứng bảng điểm chuyển đổi (nếu có)
+                - Bản sao công chứng giấy tờ về đối tượng ưu tiên (nếu có)
+                - Bản sao công chứng văn bằng hoặc chứng chỉ ngoại ngữ (nếu có)
+                - 04 hình 3x4 (ghi rõ họ tên - ngày sinh - nơi sinh)
+                - Giấy khám sức khỏe
+                - 02 bì thư có dán tem, ghi rõ địa chỉ người nhận
+                - Biên lai nộp lệ phí dự thi (cán bộ nhận hồ sơ kiểm tra xong trả lại cho thí sinh)
+          </template>
+      </category>
+      
+      <category>
+          <pattern> * hồ sơ *</pattern>
+          <template> 
+              <srai> Hồ sơ dự thi </srai>
+          </template>
+      </category>
+      
+       <category>
+          <pattern> Lệ phí </pattern>
+          <template>
+              Lệ phí thi: 420.000 đồng/kỳ thi
+              Lệ phí bổ túc kiến thức: 1.000.000 đồng/môn
+              Lệ phí ôn tập: 1.000.000 đồng/môn
+          </template>
+      </category>
+      
+      <category>
+          <pattern>
+              * lệ phí *
+          </pattern>
+          <template>
+              <srai> Lệ phí </srai>
+          </template>
+      </category>
+      
+      <category>
+          <pattern>Ngành đào tạo</pattern>
+          <template>
+              Trong đợt này, Hutech tuyển sinh 11 chuyên ngành ở trình độ Thạc sĩ gồm:
+              1.Kỹ thuật điện
+              2.Kỹ thuật cơ điện tử
+              3.Kỹ thuật môi trường
+              4.Kỹ thuật XD công trình dân dụng và công nghiệp
+              5.Công nghệ sinh học
+              6.Công nghệ thực phẩm
+              7.Công nghệ thông tin
+              8.Kế toán
+              9.Quản trị kinh doanh
+              10.Quản trị Dv du livh5 và lữ hành
+              11.Ngôn ngữ Anh
+              
+              * Bạn có thể truy cập trang chủ Hutech để tìm hiểu rõ hơn về từng ngành
+          </template>
+      </category>
+      
+      <category>
+          <pattern>
+              * ngành *
+          </pattern>
+          <template>
+              <srai> Ngành đào tạo </srai>
+          </template>
+      </category>
+      
+  </topic>
+</aiml>
